@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body background="/pictures/world.jpg">
+
+    <header>
+        <div class="head-tag">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#"><img src="/pictures/todo2.jpg" alt="logo" height="50" width="90"></a>
+    <div class="heading">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a><b><h3><i>Welcome to TO-DO List Web App</i></h3></b></a>
+        </li>
+      </ul></div>
+    </div>
+    </nav>
+
+    </div>
+    </header>
+
+  <div class="h">
+
+  <h5><i>Login to explore more!</i></h5></div><br>
+
+  <form action="main.html" class="login" onsubmit="return validate() && pass()">
+      <h4>
+    <div class="form-group">
+      <h3><i>LOGIN</i></h3><br><br>
+       <label for="username1"><b><i>User Id</i></b></label> 
+       <label for="error" id="error"></label>
+      <input type="text" class="form-control" id="user" aria-describedby="emailHelp" placeholder="User id">
+    </div><br>
+    <div class="form-group"><br>
+      <label for="password1"><b><i>Password</i></b></label> 
+       <label for="pswd" id="pswd"></label>
+      <input type="password" class="form-control" id="password" placeholder="Password">
+    </div><br></h4>
+    
+    <button type="submit" class="btn btn-primary"><i>Log In</i></button><br><br>
+  </form>
+  
+    <script src="script.js"></script>
+
+</body>
+</html>

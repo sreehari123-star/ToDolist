@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+body{
+    background-size: cover;
+}
+
+
+ .h{
+    text-align: center;
+    margin-right: 22em;
+    color: white;
+    margin-top: 2em;
+} 
+
+
+.login{
+    margin-left: 25em; 
+    margin-right: 25em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+
+.head-tag{
+    background-color:black;
+}
+
+
+
+ .heading{
+    font-family: cursive;
+    text-align: right;
+    margin-left: 46em;
+    color: white;
+ }
+
+  .head{
+     background-color: black;
+ } 
+
+
+  .demo{
+    font-family: cursive;
+    margin-left: 62em;
+ }
+ 
+ #todo{
+     color: white;
+ }
+
+.cont h2{
+    text-align: center;
+    color: red;
+    font-family: cursive;
+}
+
+ .container{
+    color:greenyellow;
+} 
